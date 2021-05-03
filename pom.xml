@@ -28,11 +28,11 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
-		<dependency>
-			<groupId>com.amazonaws</groupId>
+		<dependency>                             
+			<groupId>com.amazonaws</groupId>     
 			<artifactId>aws-java-sdk</artifactId>
-			<version>1.11.1009</version>
-		</dependency>
+			<version>1.11.1009</version>         
+		</dependency>                            
 
 	</dependencies>
 
