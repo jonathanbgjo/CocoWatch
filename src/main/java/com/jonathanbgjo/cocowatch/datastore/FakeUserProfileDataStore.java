@@ -15,4 +15,7 @@ public class FakeUserProfileDataStore {
         USER_PROFILES.add(new UserProfile(UUID.randomUUID(), "cc", null));
 
     }
+    public List<UserProfile> getUserProfiles(){
+        return USER_PROFILES;
+    }
 }
