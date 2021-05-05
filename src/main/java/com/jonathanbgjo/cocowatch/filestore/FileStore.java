@@ -25,6 +25,7 @@ public class FileStore {
                      Optional<Map<String,String>> optionalMetadata,
                      InputStream inputStream){
         ObjectMetadata metadata = new ObjectMetadata();
+        //check if there is metadata
         optionalMetadata.ifPresent(map -> {
             if(!map.isEmpty()){
                 map.forEach(metadata::addUserMetadata);
